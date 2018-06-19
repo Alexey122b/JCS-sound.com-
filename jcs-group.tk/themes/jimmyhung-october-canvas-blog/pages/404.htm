@@ -1,0 +1,44 @@
+title = 404
+url = "/404"
+layout = "default"
+meta_title = "Страница не найдена"
+is_hidden = 0
+==
+{% partial 'layout-elements/breadcrumbs' breadcrumbs=[{'page':this.page.id,'text':this.page.meta_title}] %}
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div class="content-wrap">
+
+				<div class="container clearfix">
+
+					<div class="col_half nobottommargin">
+						<div class="error404 center">404</div>
+					</div>
+
+					<div class="col_half nobottommargin col_last">
+
+						<div class="heading-block nobottomborder">
+							<h4>Упсс...! Страница, которую вы запросили, не существует.</h4>
+							<span>Попробуйте вернуться на <a href="{{ 'home'|page}}">домашнюю страницу</a>.</span>
+						</div>
+
+						<div class="col-md-4 widget_links topmargin nobottommargin">
+							<ul>
+								{% partial 'site/navitems' %}
+							</ul>
+						</div>
+
+						<div class="col-md-8 widget_links topmargin nobottommargin">
+							{% partial 'site/sociallink' num_in_line=1 %}
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->

@@ -1,0 +1,15 @@
+columns:
+    created_at:
+        label: created_at
+        type: datetime
+        invisible: true
+        sortable: true
+    title:
+        label: title
+        type: text
+        searchable: true
+        sortable: true
+    link:
+        label: link
+        type: text
+        sortable: true

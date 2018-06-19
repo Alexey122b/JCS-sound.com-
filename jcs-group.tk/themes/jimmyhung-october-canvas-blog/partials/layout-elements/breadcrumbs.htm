@@ -1,0 +1,22 @@
+description = "Breadcrumb"
+
+[viewBag]
+==
+<!-- Page Title
+		============================================= -->
+<section id="page-title">
+
+    <div class="container clearfix">
+        <h1>{{ this.page.meta_title }}</h1>
+        {% if (slogan is not empty) %}<span>{{ slogan }}</span> {% endif %}
+        {% if (breadcrumbs is not empty) %}
+        <ol class="breadcrumb">
+            <li><a href="{{ 'home'|page}}">Главная</a></li>
+            {% for crumb in breadcrumbs %}
+                <li><a href="{{ crumb['page']|page }}">{{ crumb['text'] }}</a></li>
+            {% endfor %}
+        </ol>
+        {% endif %}
+    </div>
+
+</section><!-- #page-title end -->

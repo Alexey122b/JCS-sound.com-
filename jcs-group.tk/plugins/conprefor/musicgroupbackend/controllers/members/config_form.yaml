@@ -1,0 +1,11 @@
+name: Members
+modelClass: Conprefor\Musicgroupbackend\Models\Member
+form: $/conprefor/musicgroupbackend/models/member/fields.yaml
+defaultRedirect: conprefor/musicgroupbackend/members
+create:
+    redirect: 'conprefor/musicgroupbackend/members/update/:id'
+    redirectClose: conprefor/musicgroupbackend/members
+update:
+    redirect: conprefor/musicgroupbackend/members
+    redirectClose: conprefor/musicgroupbackend/members
+preview: {  }

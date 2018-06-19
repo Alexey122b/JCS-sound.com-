@@ -1,0 +1,22 @@
+columns:
+    id:
+        label: id
+        type: number
+        invisible: true
+    name:
+        label: 'conprefor.musicgroupbackend::lang.member.name'
+        type: text
+        searchable: true
+        sortable: true
+    slug:
+        label: 'conprefor.musicgroupbackend::lang.text.slug'
+        type: text
+        invisible: true
+    active:
+        label: 'conprefor.musicgroupbackend::lang.member.activeingroup'
+        type: text
+        sortable: true
+    created_at:
+        label: created_at
+        type: datetime
+        sortable: true

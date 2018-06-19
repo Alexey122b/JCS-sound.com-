@@ -1,0 +1,60 @@
+fields:
+    name:
+        label: 'conprefor.musicgroupbackend::lang.event.name'
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    slug:
+        label: 'conprefor.musicgroupbackend::lang.text.slug'
+        oc.commentPosition: ''
+        span: auto
+        hidden: 0
+        required: 1
+        preset:
+            field: name
+            type: slug
+        type: text
+    description:
+        label: 'conprefor.musicgroupbackend::lang.text.description'
+        size: huge
+        oc.commentPosition: ''
+        span: full
+        required: 0
+        type: richeditor
+    type:
+        label: 'conprefor.musicgroupbackend::lang.event.type'
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    date_and_time:
+        label: 'conprefor.musicgroupbackend::lang.event.date_time'
+        oc.commentPosition: ''
+        mode: datetime
+        span: auto
+        required: 1
+        type: datepicker
+    place:
+        label: 'conprefor.musicgroupbackend::lang.event.place'
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    place_link:
+        label: 'conprefor.musicgroupbackend::lang.event.place_link'
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    eventimage:
+        label: 'conprefor.musicgroupbackend::lang.event.image'
+        oc.commentPosition: ''
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        required: 1
+        type: fileupload

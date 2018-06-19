@@ -1,0 +1,12 @@
+title: Members
+modelClass: Conprefor\Musicgroupbackend\Models\Member
+list: $/conprefor/musicgroupbackend/models/member/columns.yaml
+recordUrl: 'conprefor/musicgroupbackend/members/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

@@ -1,0 +1,79 @@
+description = "Footer Section"
+
+[viewBag]
+
+[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = 1
+categoryPage = "blog/categories"
+
+[blogTags]
+hideOrphans = 1
+results = 10
+orderBy = 0
+direction = "desc"
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 3
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "blog/categories"
+postPage = "blog/post"
+==
+<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap clearfix">
+
+					<div class="col_two_third">
+
+						<div class="col_half">
+
+							<div class="widget widget_links clearfix">
+							    <h4>Ссылки</h4>
+								<ul>
+								    {% partial 'site/navitems' %}
+								</ul>
+							</div>
+						</div>
+
+						
+						<div class="col_one_third col_last">
+
+							<div class="widget clearfix">
+								<h4>Последние новости</h4>
+								<div id="post-list-footer">
+								    {% for post in posts %}
+									<div class="spost clearfix">
+										<div class="entry-c">
+											<div class="entry-title">
+												<h4><a href="{{ post.url }}" rel="nofollow">{{ post.title }}</a></h4>
+											</div>
+											<ul class="entry-meta">
+												<li>{{ post.published_at|date("M-d-y") }}</li>
+											</ul>
+										</div>
+									</div>
+									{% endfor %}
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="col_one_third col_last">
+						
+						<div class="widget clearfix" style="margin-bottom: -20px;">
+
+							<div class="row">
+
+								{% partial 'site/sociallink' %}
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->

@@ -1,0 +1,127 @@
+1529423968a:1:{s:9:"about.htm";a:10:{s:8:"fileName";s:9:"about.htm";s:7:"content";s:2199:"title = "About"
+url = "/about"
+layout = "default"
+meta_title = "О группе"
+is_hidden = 0
+==
+<?php
+/*use technobrave\sociallinks\Models\Sociallink;*/
+
+
+
+/*
+{% partial 'layout-elements/breadcrumbs' breadcrumbs=[{'page':'contact','text':'Контакты'}] %}
+
+<div class="content-wrap">
+<div class="container clearfix">
+    <div class="nobottommargin clearfix">
+        <div class="entry clearfix">
+            <div class="entry-title">
+                <h2 class="media-heading">Свяжитесь с нами!</h2>
+            </div>
+            <div class="entry-content">
+                <p>Сотрудничество и выступления</p>
+                <p>Казбек +77017186809</p>
+            </div> 
+        </div>
+        <div class="entry clearfix">
+            <div class="entry-title">
+                <h3>Мы в социальных сетях.</h3>
+            </div>
+            <div class="entry-content">
+                {% partial 'site/sociallink' %}
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+*/
+?>
+==
+{% partial 'layout-elements/breadcrumbs' breadcrumbs=[{'page':this.page.id,'text':this.page.meta_title}] %}
+
+<div class="content-wrap">
+<div class="container clearfix">
+    
+    <h2 class="media-heading">В JCS</h2>
+    
+    {% partial 'plugins/show-members' %}
+    
+    <div class="nobottommargin clearfix">
+        <div class="entry clearfix">
+            <div class="entry-title">
+                <h2 class="media-heading">История казахстанского джаз-бенда и жизнь JCS (Jazz China’s Specification)</h2>
+            </div>
+            <div class="entry-content notopmargin">
+                {% content 'about/content1' %}
+                <p class="center">
+                    <img src="{{'photos/nurkzjpg1.jpg'|media}}"/>
+                </p>
+                {% content 'about/content2' %}
+                <p class="center col_one_third">
+                    <img src="{{'photos/insta-white_asdaszxc.jpg'|media}}"/>
+                </p>
+                {% content 'about/content3' %}
+            </div>
+        </div>
+    </div>
+</div>
+</div>";s:5:"mtime";i:1512748487;s:6:"markup";s:1111:"{% partial 'layout-elements/breadcrumbs' breadcrumbs=[{'page':this.page.id,'text':this.page.meta_title}] %}
+
+<div class="content-wrap">
+<div class="container clearfix">
+    
+    <h2 class="media-heading">В JCS</h2>
+    
+    {% partial 'plugins/show-members' %}
+    
+    <div class="nobottommargin clearfix">
+        <div class="entry clearfix">
+            <div class="entry-title">
+                <h2 class="media-heading">История казахстанского джаз-бенда и жизнь JCS (Jazz China’s Specification)</h2>
+            </div>
+            <div class="entry-content notopmargin">
+                {% content 'about/content1' %}
+                <p class="center">
+                    <img src="{{'photos/nurkzjpg1.jpg'|media}}"/>
+                </p>
+                {% content 'about/content2' %}
+                <p class="center col_one_third">
+                    <img src="{{'photos/insta-white_asdaszxc.jpg'|media}}"/>
+                </p>
+                {% content 'about/content3' %}
+            </div>
+        </div>
+    </div>
+</div>
+</div>";s:4:"code";s:977:"/*use technobrave\sociallinks\Models\Sociallink;*/
+
+
+
+/*
+{% partial 'layout-elements/breadcrumbs' breadcrumbs=[{'page':'contact','text':'Контакты'}] %}
+
+<div class="content-wrap">
+<div class="container clearfix">
+    <div class="nobottommargin clearfix">
+        <div class="entry clearfix">
+            <div class="entry-title">
+                <h2 class="media-heading">Свяжитесь с нами!</h2>
+            </div>
+            <div class="entry-content">
+                <p>Сотрудничество и выступления</p>
+                <p>Казбек +77017186809</p>
+            </div> 
+        </div>
+        <div class="entry clearfix">
+            <div class="entry-title">
+                <h3>Мы в социальных сетях.</h3>
+            </div>
+            <div class="entry-content">
+                {% partial 'site/sociallink' %}
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+*/";s:5:"title";s:5:"About";s:3:"url";s:6:"/about";s:6:"layout";s:7:"default";s:10:"meta_title";s:15:"О группе";s:9:"is_hidden";s:1:"0";}}

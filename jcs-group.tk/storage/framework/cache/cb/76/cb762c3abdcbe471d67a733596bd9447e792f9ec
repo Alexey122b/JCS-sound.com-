@@ -1,0 +1,40 @@
+1529423969a:1:{s:21:"site/sociallinkli.htm";a:6:{s:8:"fileName";s:21:"site/sociallinkli.htm";s:7:"content";s:654:"==
+<li>
+    <a href="{% content 'social-links/facebook' %}" class="si-dark si-colored si-facebook" >
+	<i class="icon-facebook"></i> 
+	</a> 
+</li>
+<li>
+	<a href="{% content 'social-links/instagram' %}" class="si-dark si-colored si-instagram">
+		<i class="icon-instagram"></i> 
+	</a> 
+</li>
+<li>
+	<a href="{% content 'social-links/youtube' %}" class=" si-dark si-colored si-youtube" >
+		<i class="icon-youtube"></i> 
+	</a>
+</li>
+<!-- <li>
+    <a href="tel:{% content 'social-links/phone' %}" class="si-dark si-colored si-facebook">
+        <i class="icon-phone"></i> <strong>{% content 'social-links/phone' %}</strong>
+    </a>
+</li> -->";s:5:"mtime";i:1513235282;s:6:"markup";s:651:"<li>
+    <a href="{% content 'social-links/facebook' %}" class="si-dark si-colored si-facebook" >
+	<i class="icon-facebook"></i> 
+	</a> 
+</li>
+<li>
+	<a href="{% content 'social-links/instagram' %}" class="si-dark si-colored si-instagram">
+		<i class="icon-instagram"></i> 
+	</a> 
+</li>
+<li>
+	<a href="{% content 'social-links/youtube' %}" class=" si-dark si-colored si-youtube" >
+		<i class="icon-youtube"></i> 
+	</a>
+</li>
+<!-- <li>
+    <a href="tel:{% content 'social-links/phone' %}" class="si-dark si-colored si-facebook">
+        <i class="icon-phone"></i> <strong>{% content 'social-links/phone' %}</strong>
+    </a>
+</li> -->";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

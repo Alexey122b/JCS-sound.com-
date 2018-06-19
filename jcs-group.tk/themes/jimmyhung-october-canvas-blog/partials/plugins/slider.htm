@@ -1,0 +1,38 @@
+description = "Slider"
+
+[viewBag]
+==
+<?php
+/* <section id="slider" class="slider-parallax swiper_wrapper clearfix">
+ */
+ 
+ use conprefor\musicgroupbackend\models\Slider;
+
+
+function onStart()
+{
+    $this['slider'] = Slider::all();;
+}
+?>
+==
+<section id="slider" class=" swiper_wrapper clearfix">
+
+    <div class="swiper-container swiper-parent">
+        <div class="swiper-wrapper">
+            {% for slide in slider %}
+            <div class="swiper-slide dark" style="background-image: url('{{ slide.slideimage.getPath() }}');">
+                <a href="{{ (slide.link)?slide.link:'concert'|page}}"><div class="container clearfix">
+                    <div class="slider-caption slider-caption-center">
+                        <h2 data-caption-animate="fadeInUp">{{ slide.title }}</h2>
+                        <p data-caption-animate="fadeInUp" data-caption-delay="20">{{ slide.subtitle }}</p>
+                    </div>
+                </div></a>
+            </div>
+            {% endfor %}
+        </div>
+        <div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
+        <div id="slider-arrow-right"><i class="icon-angle-right"></i></div>
+        <div id="slide-number"><div id="slide-number-current"></div><span>/</span><div id="slide-number-total"></div></div>
+    </div>
+
+</section>

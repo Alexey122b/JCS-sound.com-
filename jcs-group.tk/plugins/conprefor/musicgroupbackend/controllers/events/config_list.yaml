@@ -1,0 +1,13 @@
+title: Events
+modelClass: Conprefor\Musicgroupbackend\Models\Event
+list: $/conprefor/musicgroupbackend/models/event/columns.yaml
+recordUrl: 'conprefor/musicgroupbackend/events/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+showSorting: 1
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

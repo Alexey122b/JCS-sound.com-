@@ -1,0 +1,36 @@
+==
+{% set num_in_line = (num_in_line is null)?2:num_in_line %}
+{% set colmd = 12/num_in_line%}
+
+<div class="col-md-{{colmd}} clearfix bottommargin-sm">
+	<a href="tel:{% content 'social-links/phone' %}" class="social-icon si-dark si-colored si-facebook nobottommargin">
+		<i class="icon-phone"></i><i class="icon-phone"></i>
+	</a>
+	<a href="tel:{% content 'social-links/phone' %}" target="_blank">
+	    <strong>{% content 'social-links/phone' %}</strong>
+	</a>
+</div>
+<div class="col-md-{{colmd}} clearfix bottommargin-sm">
+	<a href="{% content 'social-links/facebook' %}" class="social-icon si-dark si-colored si-facebook nobottommargin">
+		<i class="icon-facebook"></i><i class="icon-facebook"></i>
+	</a>
+	<a href="{% content 'social-links/facebook' %}" target="_blank">
+	    <strong>JCS Sound Group</strong>
+	</a>
+</div>
+<div class="col-md-{{colmd}} clearfix bottommargin-sm">
+	<a href="{% content 'social-links/instagram' %}" class="social-icon si-dark si-colored si-instagram nobottommargin">
+		<i class="icon-instagram"></i><i class="icon-instagram"></i>
+	</a>
+	<a href="{% content 'social-links/instagram' %}" target="_blank">
+	    <strong>@jcssound</strong>
+	</a>
+</div>
+<div class="col-md-{{colmd}} clearfix bottommargin-sm">
+	<a href="{% content 'social-links/youtube' %}" class="social-icon si-dark si-colored si-youtube nobottommargin" >
+		<i class="icon-youtube"></i><i class="icon-youtube"></i>
+	</a>
+	<a href="{% content 'social-links/youtube' %}" target="_blank">
+	    <strong>JCS Sound</strong>
+	</a>
+</div>

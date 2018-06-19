@@ -1,0 +1,39 @@
+1529423970a:1:{s:31:"layout-elements/breadcrumbs.htm";a:7:{s:8:"fileName";s:31:"layout-elements/breadcrumbs.htm";s:7:"content";s:685:"description = "Breadcrumb"
+
+[viewBag]
+==
+<!-- Page Title
+		============================================= -->
+<section id="page-title">
+
+    <div class="container clearfix">
+        <h1>{{ this.page.meta_title }}</h1>
+        {% if (slogan is not empty) %}<span>{{ slogan }}</span> {% endif %}
+        {% if (breadcrumbs is not empty) %}
+        <ol class="breadcrumb">
+            <li><a href="{{ 'home'|page}}">Главная</a></li>
+            {% for crumb in breadcrumbs %}
+                <li><a href="{{ crumb['page']|page }}">{{ crumb['text'] }}</a></li>
+            {% endfor %}
+        </ol>
+        {% endif %}
+    </div>
+
+</section><!-- #page-title end -->";s:5:"mtime";i:1511700145;s:6:"markup";s:644:"<!-- Page Title
+		============================================= -->
+<section id="page-title">
+
+    <div class="container clearfix">
+        <h1>{{ this.page.meta_title }}</h1>
+        {% if (slogan is not empty) %}<span>{{ slogan }}</span> {% endif %}
+        {% if (breadcrumbs is not empty) %}
+        <ol class="breadcrumb">
+            <li><a href="{{ 'home'|page}}">Главная</a></li>
+            {% for crumb in breadcrumbs %}
+                <li><a href="{{ crumb['page']|page }}">{{ crumb['text'] }}</a></li>
+            {% endfor %}
+        </ol>
+        {% endif %}
+    </div>
+
+</section><!-- #page-title end -->";s:4:"code";N;s:11:"description";s:10:"Breadcrumb";s:7:"viewBag";a:0:{}}}

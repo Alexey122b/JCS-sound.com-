@@ -1,0 +1,10 @@
+1529423969a:1:{s:17:"site/navitems.htm";a:6:{s:8:"fileName";s:17:"site/navitems.htm";s:7:"content";s:655:"==
+<li {% if this.page.id=='home'|page %} class="current" {% endif %}><a href="{{'home'|page}}"><div>Главная</div></a></li>
+<li {% if this.page.id=='news'|page %} class="current" {% endif %}><a href="{{'news'|page}}"><div>Новости</div></a></li>
+<li {% if this.page.id=='concert'|page %} class="current" {% endif %}><a href="{{'concert'|page}}"><div>Концерты</div></a></li>
+<li {% if this.page.id=='media'|page %} class="current" {% endif %}><a href="{{'media'|page}}"><div>Медиа</div></a></li>
+<li {% if this.page.id=='about'|page %} class="current" {% endif %}><a href="{{'about'|page}}"><div>О группе</div></a></li>";s:5:"mtime";i:1511710914;s:6:"markup";s:652:"<li {% if this.page.id=='home'|page %} class="current" {% endif %}><a href="{{'home'|page}}"><div>Главная</div></a></li>
+<li {% if this.page.id=='news'|page %} class="current" {% endif %}><a href="{{'news'|page}}"><div>Новости</div></a></li>
+<li {% if this.page.id=='concert'|page %} class="current" {% endif %}><a href="{{'concert'|page}}"><div>Концерты</div></a></li>
+<li {% if this.page.id=='media'|page %} class="current" {% endif %}><a href="{{'media'|page}}"><div>Медиа</div></a></li>
+<li {% if this.page.id=='about'|page %} class="current" {% endif %}><a href="{{'about'|page}}"><div>О группе</div></a></li>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

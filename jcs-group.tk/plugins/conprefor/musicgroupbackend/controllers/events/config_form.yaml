@@ -1,0 +1,10 @@
+name: Events
+form: $/conprefor/musicgroupbackend/models/event/fields.yaml
+modelClass: Conprefor\Musicgroupbackend\Models\Event
+defaultRedirect: conprefor/musicgroupbackend/events
+create:
+    redirect: 'conprefor/musicgroupbackend/events/update/:id'
+    redirectClose: conprefor/musicgroupbackend/events
+update:
+    redirect: conprefor/musicgroupbackend/events
+    redirectClose: conprefor/musicgroupbackend/events

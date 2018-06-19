@@ -1,0 +1,21 @@
+==
+<?php
+use conprefor\musicgroupbackend\models\Event;
+
+
+function onStart()
+{
+    $this['events'] = Event::take(10)->get();;
+}
+?>
+==
+{% for event in events %}
+                    <div class="col-md-3 col-md-offset-1" >
+                        <img src="{{ event.eventimage.getPath() }}">
+                    </div>
+                    <div class="col-md-5 center" >
+                        <h3>{{ event.type }} {{ event.name }}</h3>
+                        <a href="{{ event.place_link }}"><h5><i class="icon-world"></i> {{ event.place }}</h5></a>
+                        <h4>{{ event.date_and_time|date("d/M/Y H:i") }}</h4>
+                    </div>
+                {% endfor %}

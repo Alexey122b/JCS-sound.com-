@@ -1,0 +1,35 @@
+plugin:
+    name: 'conprefor.musicgroupbackend::lang.plugin.name'
+    description: 'conprefor.musicgroupbackend::lang.plugin.description'
+    author: conprefor
+    icon: oc-icon-adjust
+    homepage: ''
+permissions:
+    conprefor.musicgroupbackend.manage_music_group:
+        tab: 'conprefor.musicgroupbackend::lang.plugin.name'
+        label: 'conprefor.musicgroupbackend::lang.text.manage.group'
+navigation:
+    music-group-backend:
+        label: 'conprefor.musicgroupbackend::lang.plugin.name'
+        url: /conprefor/musicgroupbackend/events/
+        icon: icon-adjust
+        permissions: {  }
+        sideMenu:
+            manage-members:
+                label: 'conprefor.musicgroupbackend::lang.text.manage.member'
+                url: /conprefor/musicgroupbackend/members
+                icon: icon-user
+                permissions:
+                    - conprefor.musicgroupbackend.manage_members
+            manage-events:
+                label: 'conprefor.musicgroupbackend::lang.text.manage.event'
+                url: /conprefor/musicgroupbackend/events/
+                icon: icon-calendar-o
+                permissions:
+                    - conprefor.musicgroupbackend.manage_music_group
+            manage-slider:
+                label: 'conprefor.musicgroupbackend::lang.text.manage.slider'
+                url: /conprefor/musicgroupbackend/sliders/
+                icon: icon-tasks
+                permissions:
+                    - conprefor.musicgroupbackend.manage_music_group

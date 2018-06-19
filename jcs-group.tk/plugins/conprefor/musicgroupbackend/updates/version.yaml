@@ -1,0 +1,32 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table conprefor_musicgroupbackend_members'
+    - builder_table_create_conprefor_musicgroupbackend_members.php
+1.0.3:
+    - 'Updated table conprefor_musicgroupbackend_members'
+    - builder_table_update_conprefor_musicgroupbackend_members.php
+1.0.4:
+    - 'Updated table conprefor_musicgroupbackend_members'
+    - builder_table_update_conprefor_musicgroupbackend_members_2.php
+1.0.5:
+    - 'Updated table conprefor_musicgroupbackend_members'
+    - builder_table_update_conprefor_musicgroupbackend_members_3.php
+1.0.6:
+    - 'Updated table conprefor_musicgroupbackend_members'
+    - builder_table_update_conprefor_musicgroupbackend_members_4.php
+1.0.7:
+    - 'Created table conprefor_musicgroupbackend_events'
+    - builder_table_create_conprefor_musicgroupbackend_events.php
+1.0.8:
+    - 'Updated table conprefor_musicgroupbackend_events'
+    - builder_table_update_conprefor_musicgroupbackend_events.php
+1.0.9:
+    - 'Updated table conprefor_musicgroupbackend_events'
+    - builder_table_update_conprefor_musicgroupbackend_events_2.php
+1.0.10:
+    - 'Created table conprefor_musicgroupbackend_sliders'
+    - builder_table_create_conprefor_musicgroupbackend_sliders.php
+1.0.11:
+    - 'Updated table conprefor_musicgroupbackend_sliders'
+    - builder_table_update_conprefor_musicgroupbackend_sliders.php

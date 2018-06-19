@@ -1,0 +1,35 @@
+columns:
+    id:
+        label: id
+        type: number
+        invisible: true
+    type:
+        label: 'conprefor.musicgroupbackend::lang.event.type'
+        type: text
+        searchable: true
+        sortable: true
+    name:
+        label: 'conprefor.musicgroupbackend::lang.event.name'
+        type: text
+        searchable: true
+        invisible: false
+    slug:
+        label: 'conprefor.musicgroupbackend::lang.text.slug'
+        type: text
+        searchable: false
+        invisible: true
+        sortable: false
+    place:
+        label: 'conprefor.musicgroupbackend::lang.event.place'
+        type: text
+        searchable: true
+        sortable: true
+    date_and_time:
+        label: 'conprefor.musicgroupbackend::lang.event.date_time'
+        type: text
+        searchable: false
+        sortable: true
+    created_at:
+        label: created_at
+        type: datetime
+        invisible: true

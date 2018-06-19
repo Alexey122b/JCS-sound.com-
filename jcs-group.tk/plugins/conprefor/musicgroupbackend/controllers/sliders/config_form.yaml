@@ -1,0 +1,10 @@
+name: Sliders
+form: $/conprefor/musicgroupbackend/models/slider/fields.yaml
+modelClass: Conprefor\Musicgroupbackend\Models\Slider
+defaultRedirect: conprefor/musicgroupbackend/sliders
+create:
+    redirect: 'conprefor/musicgroupbackend/sliders/update/:id'
+    redirectClose: conprefor/musicgroupbackend/sliders
+update:
+    redirect: conprefor/musicgroupbackend/sliders
+    redirectClose: conprefor/musicgroupbackend/sliders
